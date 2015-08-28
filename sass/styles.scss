@@ -1,0 +1,60 @@
+/**
+* Project Name		: Tabor Focus
+* Date				: 28-August-2015
+* Developer			: Euk Thona
+* Developer URL		: http://glean.net
+*/
+
+
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+
+
+h1 {
+	font-size: 2em;
+	color: #fff;
+	padding-top: 30px;
+	margin: 0;
+	color: black;
+}
+p {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0;
+	font-size: 1.3em;
+	color: black;
+}
+.container {
+	padding: 0 15px;
+}
+.row {
+	margin: 0;
+}
+nav {
+background: black;
+box-shadow: 1px 2px 4px;
+top: 0;
+width: 100%;
+position: fixed;
+z-index: 1;
+}
+nav ul {
+	display: block;
+	width: auto;
+	position: static;
+	float: right;
+	padding-right: 15px
+}
+ul li {
+	display: inline-block;
+	
+}
+nav ul a {
+	color: black;;
+	display: block;
+	text-decoration: none;
+	padding: 20px 15px;
+}
