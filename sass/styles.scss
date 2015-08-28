@@ -10,7 +10,10 @@
 @import "bootstrap-variables";
 @import "bootstrap";
 
-
+.container:nth-child( 2 ) {
+	padding: 0;
+	width: 100%;
+}
 h1 {
 	font-size: 2em;
 	color: #fff;
@@ -53,8 +56,19 @@ ul li {
 	
 }
 nav ul a {
-	color: black;;
+	color: black;
 	display: block;
 	text-decoration: none;
 	padding: 20px 15px;
+}
+.background {
+	background: url(../images/background.jpg) no-repeat;
+	display: block;
+	text-decoration: none;
+	text-indent: -9999px;
+	margin-top: 70px;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
 }

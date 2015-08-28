@@ -8546,11 +8546,12 @@ button.close {
   }
 }
 /* line 13, ../sass/styles.scss */
-.container:nth-child(5) {
-  display: none;
+.container:nth-child(2) {
+  padding: 0;
+  width: 100%;
 }
 
-/* line 16, ../sass/styles.scss */
+/* line 17, ../sass/styles.scss */
 h1 {
   font-size: 2em;
   color: #fff;
@@ -8559,7 +8560,7 @@ h1 {
   color: black;
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 p {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -8570,17 +8571,17 @@ p {
   color: black;
 }
 
-/* line 32, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .container {
   padding: 0 15px;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
 .row {
   margin: 0;
 }
 
-/* line 38, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 nav {
   background: black;
   box-shadow: 1px 2px 4px;
@@ -8590,7 +8591,7 @@ nav {
   z-index: 1;
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 nav ul {
   display: block;
   width: auto;
@@ -8599,15 +8600,27 @@ nav ul {
   padding-right: 15px;
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 ul li {
   display: inline-block;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 nav ul a {
-  color: #fff;
+  color: black;
   display: block;
   text-decoration: none;
   padding: 20px 15px;
+}
+
+/* line 64, ../sass/styles.scss */
+.background {
+  background: url(../images/background.jpg) no-repeat;
+  display: block;
+  text-decoration: none;
+  text-indent: -9999px;
+  margin-top: 70px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
